@@ -1,28 +1,37 @@
 {
-  "name": "aws-cost-dashboard-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Backend for AWS Cost Dashboard application using NestJS",
+  "description": "AWS Cost Monitoring and Forecasting Backend",
   "main": "dist/main.js",
   "scripts": {
     "start": "node dist/main.js",
     "build": "tsc",
     "watch": "tsc -w",
-    "lint": "eslint ."
+    "test": "jest"
   },
   "dependencies": {
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^9.0.0",
-    "@nestjs/platform-express": "^9.0.0",
-    "aws-sdk": "^2.1000.0",
+    "@nestjs/common": "^11.1.1",
+    "@nestjs/core": "^11.1.1",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/mongoose": "^11.0.3",
+    "@nestjs/platform-express": "^11.1.1",
+    "aws-sdk": "^2.1692.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "dotenv": "^10.0.0",
+    "mongoose": "^8.15.0",
     "rxjs": "^7.0.0"
   },
   "devDependencies": {
-    "@nestjs/testing": "^9.0.0",
-    "typescript": "^4.5.0",
-    "ts-loader": "^9.2.0",
-    "eslint": "^7.0.0",
-    "eslint-config-prettier": "^8.0.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "@nestjs/cli": "^11.0.7",
+    "@nestjs/testing": "^11.1.1",
+    "@types/express": "^5.0.2",
+    "@types/jest": "^27.5.2",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^16.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.5.0"
   },
   "engines": {
     "node": ">=14.0.0"

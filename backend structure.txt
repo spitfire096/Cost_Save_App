@@ -1,0 +1,37 @@
+backend/
+├── src/
+│   ├── app.module.ts
+│   ├── main.ts
+│   ├── costs/
+│   │   ├── costs.controller.ts
+│   │   ├── costs.service.ts
+│   │   ├── costs.module.ts
+│   │   ├── dto/
+│   │   │   └── create-cost.dto.ts
+│   │   └── schemas/
+│   │       └── cost.schema.ts
+│   ├── budgets/
+│   │   ├── budgets.controller.ts
+│   │   ├── budgets.service.ts
+│   │   ├── budgets.module.ts
+│   │   ├── dto/
+│   │   │   └── create-budget.dto.ts
+│   │   └── schemas/
+│   │       └── budget.schema.ts
+│   ├── alerts/
+│   │   ├── alerts.controller.ts
+│   │   ├── alerts.service.ts
+│   │   ├── alerts.module.ts
+│   │   ├── dto/
+│   │   │   └── create-alert.dto.ts
+│   │   └── schemas/
+│   │       └── alert.schema.ts
+│   ├── auth/
+│   │   ├── auth.controller.ts
+│   │   ├── auth.service.ts
+│   │   ├── auth.module.ts
+│   │   └── dto/
+│   │       └── login.dto.ts
+│   └── common/
+│       └── filters/
+│           └── http-exception.filter.ts
